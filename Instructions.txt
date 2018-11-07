@@ -13,6 +13,11 @@ Git Hub Instructions:
 3) "git commit -m "insert commit desription here""
 4) "git push"
 
+*** To make pull changes on master branch ***
+
+1) go to repository directory
+2) git pull
+
 
 Create a branch on local repository ---> inside the repository directory, "git checkout -b [branch-name]"
 Push local branch to github ---> inside the repository directory, "git push origin [branch-name]"
@@ -21,4 +26,3 @@ Switch to different branch ---> inside the repository directory, "git checkout [
 View all branches ---> inside the repository directory, "git branch"
 Delete branch from github  ---> inside the repository directory, "git push origin :[branch-name]"
 Pull from a specific branch  ---> inside the repository directory, "git pull origin [branch-name]"
-Pull from a master branch  ---> inside the repository directory, "git pull"
