@@ -19,6 +19,8 @@ Git Hub Instructions:
 2) "git pull"
 
 
+*** Branch Instructions ***
+
 Create a branch on local repository ---> inside the repository directory, "git checkout -b [branch-name]"
 Push local branch to github ---> inside the repository directory, "git push origin [branch-name]"
 Delete branch from local repository  ---> inside the repository directory, "git branch -d [branch-name]"
