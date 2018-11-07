@@ -16,7 +16,7 @@ Git Hub Instructions:
 *** To make pull changes on master branch ***
 
 1) go to repository directory
-2) git pull
+2) "git pull"
 
 
 Create a branch on local repository ---> inside the repository directory, "git checkout -b [branch-name]"
