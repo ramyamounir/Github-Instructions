@@ -28,3 +28,14 @@ Switch to different branch ---> inside the repository directory, "git checkout [
 View all branches ---> inside the repository directory, "git branch"
 Delete branch from github  ---> inside the repository directory, "git push origin :[branch-name]"
 Pull from a specific branch  ---> inside the repository directory, "git pull origin [branch-name]"
+
+
+*** LFS files ***
+
+1) install git LFS
+2) inside the directory, "git lfs install"
+3) inside the directory, "git lfs track "*[extension]", use "git lfs track" to view all tracked extensions
+4) "git add -A"
+5) "git commit -m "[comment]""
+6) "git push"
+7) to pull or clone, use regular git commands. P.S. make sure you have installed git LFS before you clone
