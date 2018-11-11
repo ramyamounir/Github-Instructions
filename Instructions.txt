@@ -39,3 +39,4 @@ Pull from a specific branch  ---> inside the repository directory, "git pull ori
 5) "git commit -m "[comment]""
 6) "git push"
 7) to pull or clone, use regular git commands. P.S. make sure you have installed git LFS before you clone
+8) To check the files tracked, "git lfs ls-files" after adding all files to the repo
