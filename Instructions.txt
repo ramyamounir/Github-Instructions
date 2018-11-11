@@ -33,10 +33,11 @@ Pull from a specific branch  ---> inside the repository directory, "git pull ori
 *** LFS files ***
 
 1) install git LFS
-2) inside the directory, "git lfs install"
-3) inside the directory, "git lfs track "*[extension]", use "git lfs track" to view all tracked extensions
-4) "git add -A"
-5) "git commit -m "[comment]""
-6) "git push"
-7) to pull or clone, use regular git commands. P.S. make sure you have installed git LFS before you clone
-8) To check the files tracked, "git lfs ls-files" after adding all files to the repo
+2) add "size.py" to git repository and run it to find extensions of files greater than 100 MB
+3) inside the directory, "git lfs install"
+4) inside the directory, "git lfs track "*[extension]", use "git lfs track" to view all tracked extensions
+5) "git add -A"
+6) "git commit -m "[comment]""
+7) "git push"
+8) to pull or clone, use regular git commands. P.S. make sure you have installed git LFS before you clone
+9) To check the files tracked, "git lfs ls-files" after adding all files to the repo
