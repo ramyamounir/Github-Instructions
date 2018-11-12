@@ -18,6 +18,14 @@ Git Hub Instructions:
 1) go to repository directory
 2) "git pull"
 
+*** To use gitignore ***
+
+1) create a ".gitignore" file in the repository OR create "gitignore.txt" and use "ren gitignore.txt .gitignore" OR ".gitignore."
+2) type in file names or patterns in separate lines i.e. Test.txt, *.mp4, folder/, */folder/*
+3) clear local index, just in case, by using "git rm -r --cached ./"
+4) "git add -A"
+5) "git commit -m "[comment]""
+6) "git push"
 
 *** Branch Instructions ***
 
