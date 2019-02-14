@@ -18,6 +18,13 @@ Git Hub Instructions:
 1) go to repository directory
 2) "git pull"
 
+*** To  pull changes on master branch while ignoring local changes ***
+
+1) go to repository directory
+2) "git fetch --all"
+3) "git reset --hard origin/master"
+4) "git pull"
+
 *** To use gitignore ***
 
 1) create a ".gitignore" file in the repository OR create "gitignore.txt" and use "ren gitignore.txt .gitignore" OR ".gitignore."
