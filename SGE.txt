@@ -1,0 +1,25 @@
+*** TO SUBMIT A JOB TO SGE ***
+qsub myjob.sh
+
+*** TO CHECK HOSTS INFORMATION ***
+qhost [-j to list jobs under each host] [-h <hostname> to show a specific host name]
+
+*** TO CHECK THE STATUS OF MY JOBS ***
+qstat
+
+*** TO CHECK ON ONE JOB ***
+qacct -j <job id>
+
+*** SAMPLE .SH FILE ***
+
+#!/bin/bash
+#$ -cwd
+#$ -S /bin/bash
+#$ -N TesNet6
+#$ -l hostname=gpu1
+#$ -o /home/ramy/Documents/TesNet/results.out
+#$ -m beas
+#$ -j y
+source activate ramy2
+python3 python tesnet6.py -model tesnet6_drop0.4_lr-8_force -path /data/ramy/Wildlife/ -drop 0.4 -lr 1e-8 -teacher 1
+source deactivate
