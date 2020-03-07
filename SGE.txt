@@ -21,5 +21,5 @@ qacct -j <job id>
 #$ -m beas
 #$ -j y
 source activate ramy2
-python3 python tesnet6.py -model tesnet6_drop0.4_lr-8_force -path /data/ramy/Wildlife/ -drop 0.4 -lr 1e-8 -teacher 1
+python tesnet6.py -model tesnet6_drop0.4_lr-8_force -path /data/ramy/Wildlife/ -drop 0.4 -lr 1e-8 -teacher 1
 source deactivate
